@@ -1,61 +1,61 @@
 var __wpo = {
   "assets": {
     "main": [
-      "/favicon.ico",
-      "/runtime.a1235bdcc465d448efa8.js",
-      "/"
+      "/react-material-admin/favicon.ico",
+      "/react-material-admin/runtime.a1235bdcc465d448efa8.js",
+      "/react-material-admin/"
     ],
     "additional": [
-      "/npm.lodash.efab496fab22e8c3e0d5.chunk.js",
-      "/npm.redux-saga.36b7b3dbb3f41a7740c9.chunk.js",
-      "/npm.intl.da2b4b61a3e0227d6268.chunk.js",
-      "/npm.material-ui.177ad0974f0c31a6906a.chunk.js",
-      "/4.ab377bf6bf5fd117eb2d.chunk.js",
-      "/main.9a7daacc66844e66f550.chunk.js",
-      "/npm.babel.cbd622b2e6a0ad546b0f.chunk.js",
-      "/npm.firebase.fa99616e7922cff6554e.chunk.js",
-      "/npm.mui-layout.6701546fd252abeabf71.chunk.js",
-      "/npm.react-app-polyfill.a512adaad14151170c55.chunk.js",
-      "/npm.react-redux.ac4595acc9003405d038.chunk.js",
-      "/npm.react-redux-firebase.4802844e0f44b203ed31.chunk.js",
-      "/npm.react-transition-group.7ddca2eac10722df78cf.chunk.js",
-      "/npm.redux-firestore.d7739624e08f9dd9873e.chunk.js",
-      "/15.d6a21c5029e4a9372d51.chunk.js",
-      "/16.64ccdfafd599ec4fd58e.chunk.js",
-      "/17.ecb03e78b222f32a1226.chunk.js",
-      "/18.0a3f8a4b1ac919980f80.chunk.js",
-      "/19.5f5b265b82c786ba9c50.chunk.js"
+      "/react-material-admin/npm.lodash.efab496fab22e8c3e0d5.chunk.js",
+      "/react-material-admin/npm.redux-saga.36b7b3dbb3f41a7740c9.chunk.js",
+      "/react-material-admin/npm.intl.da2b4b61a3e0227d6268.chunk.js",
+      "/react-material-admin/npm.material-ui.177ad0974f0c31a6906a.chunk.js",
+      "/react-material-admin/4.ab377bf6bf5fd117eb2d.chunk.js",
+      "/react-material-admin/main.88b92037f646a2da919f.chunk.js",
+      "/react-material-admin/npm.babel.cbd622b2e6a0ad546b0f.chunk.js",
+      "/react-material-admin/npm.firebase.fa99616e7922cff6554e.chunk.js",
+      "/react-material-admin/npm.mui-layout.6701546fd252abeabf71.chunk.js",
+      "/react-material-admin/npm.react-app-polyfill.a512adaad14151170c55.chunk.js",
+      "/react-material-admin/npm.react-redux.ac4595acc9003405d038.chunk.js",
+      "/react-material-admin/npm.react-redux-firebase.4802844e0f44b203ed31.chunk.js",
+      "/react-material-admin/npm.react-transition-group.7ddca2eac10722df78cf.chunk.js",
+      "/react-material-admin/npm.redux-firestore.d7739624e08f9dd9873e.chunk.js",
+      "/react-material-admin/15.d6a21c5029e4a9372d51.chunk.js",
+      "/react-material-admin/16.64ccdfafd599ec4fd58e.chunk.js",
+      "/react-material-admin/17.ecb03e78b222f32a1226.chunk.js",
+      "/react-material-admin/18.0a3f8a4b1ac919980f80.chunk.js",
+      "/react-material-admin/19.5f5b265b82c786ba9c50.chunk.js"
     ],
     "optional": []
   },
   "externals": [],
   "hashesMap": {
-    "5e53ef208f3fa79a48f8374488f473c76e1233de": "/favicon.ico",
-    "fad070614dd448357a93d118c186e522383e7765": "/npm.lodash.efab496fab22e8c3e0d5.chunk.js",
-    "8216a0a2c0e68898398fb506c6bd0b825a10cebf": "/npm.redux-saga.36b7b3dbb3f41a7740c9.chunk.js",
-    "7ce1f96cd49345320b0ff91fb3f537d8c43352ec": "/npm.intl.da2b4b61a3e0227d6268.chunk.js",
-    "4ad92548cf8170660838665b974787e87375dc20": "/npm.material-ui.177ad0974f0c31a6906a.chunk.js",
-    "0e344d39c0e1d21ce4d051d17645fe36c309c7b6": "/4.ab377bf6bf5fd117eb2d.chunk.js",
-    "19170f45d67ecc17ab7bd974189cc05d5ab8a157": "/main.9a7daacc66844e66f550.chunk.js",
-    "a4dbe829bf0ba3f39c0bdcd4989bad8dc87da714": "/npm.babel.cbd622b2e6a0ad546b0f.chunk.js",
-    "2664d2ea235b4beae5c53df08ef036cc6b701df5": "/npm.firebase.fa99616e7922cff6554e.chunk.js",
-    "1326d92568bea3f847bca7238a280291ef482774": "/npm.mui-layout.6701546fd252abeabf71.chunk.js",
-    "8e4f710cb68832a9bb8c2e24464ea6560e2142b1": "/npm.react-app-polyfill.a512adaad14151170c55.chunk.js",
-    "1ceb0f56c8d9fa33d55f95a7c4aa8bdd45d3700b": "/npm.react-redux.ac4595acc9003405d038.chunk.js",
-    "b6a88e98859f30310f868c4cf611968b4d35c1b9": "/npm.react-redux-firebase.4802844e0f44b203ed31.chunk.js",
-    "0114840127c3af1af089beda7f8eb5e4ac775ea3": "/npm.react-transition-group.7ddca2eac10722df78cf.chunk.js",
-    "25fb8e2fe66db71a23b56b562656281fb7392880": "/npm.redux-firestore.d7739624e08f9dd9873e.chunk.js",
-    "d77694a94677c919d8cdee795b7af9e964bca8e1": "/runtime.a1235bdcc465d448efa8.js",
-    "46b489e6c33f0e60963cc011cc93c06fc3c8d399": "/15.d6a21c5029e4a9372d51.chunk.js",
-    "1a112ba3476403dc8b506ee5af491574193428c6": "/16.64ccdfafd599ec4fd58e.chunk.js",
-    "3b59f63302ba7f6e4c13e36b52319ec4b1a5d6cd": "/17.ecb03e78b222f32a1226.chunk.js",
-    "d573935e31323c1f11991650e3d30af64f62be42": "/18.0a3f8a4b1ac919980f80.chunk.js",
-    "e5528f8d4b55a18a8bd5a26d6ec7cfaae341145e": "/19.5f5b265b82c786ba9c50.chunk.js",
-    "91dc95a13dc25df3d18c2bac76fdbf20b92abbb5": "/"
+    "5e53ef208f3fa79a48f8374488f473c76e1233de": "/react-material-admin/favicon.ico",
+    "fad070614dd448357a93d118c186e522383e7765": "/react-material-admin/npm.lodash.efab496fab22e8c3e0d5.chunk.js",
+    "8216a0a2c0e68898398fb506c6bd0b825a10cebf": "/react-material-admin/npm.redux-saga.36b7b3dbb3f41a7740c9.chunk.js",
+    "7ce1f96cd49345320b0ff91fb3f537d8c43352ec": "/react-material-admin/npm.intl.da2b4b61a3e0227d6268.chunk.js",
+    "4ad92548cf8170660838665b974787e87375dc20": "/react-material-admin/npm.material-ui.177ad0974f0c31a6906a.chunk.js",
+    "0e344d39c0e1d21ce4d051d17645fe36c309c7b6": "/react-material-admin/4.ab377bf6bf5fd117eb2d.chunk.js",
+    "84cc010f8cb10fc663ac0705174d93b363d3071c": "/react-material-admin/main.88b92037f646a2da919f.chunk.js",
+    "a4dbe829bf0ba3f39c0bdcd4989bad8dc87da714": "/react-material-admin/npm.babel.cbd622b2e6a0ad546b0f.chunk.js",
+    "2664d2ea235b4beae5c53df08ef036cc6b701df5": "/react-material-admin/npm.firebase.fa99616e7922cff6554e.chunk.js",
+    "1326d92568bea3f847bca7238a280291ef482774": "/react-material-admin/npm.mui-layout.6701546fd252abeabf71.chunk.js",
+    "8e4f710cb68832a9bb8c2e24464ea6560e2142b1": "/react-material-admin/npm.react-app-polyfill.a512adaad14151170c55.chunk.js",
+    "1ceb0f56c8d9fa33d55f95a7c4aa8bdd45d3700b": "/react-material-admin/npm.react-redux.ac4595acc9003405d038.chunk.js",
+    "b6a88e98859f30310f868c4cf611968b4d35c1b9": "/react-material-admin/npm.react-redux-firebase.4802844e0f44b203ed31.chunk.js",
+    "0114840127c3af1af089beda7f8eb5e4ac775ea3": "/react-material-admin/npm.react-transition-group.7ddca2eac10722df78cf.chunk.js",
+    "25fb8e2fe66db71a23b56b562656281fb7392880": "/react-material-admin/npm.redux-firestore.d7739624e08f9dd9873e.chunk.js",
+    "d77694a94677c919d8cdee795b7af9e964bca8e1": "/react-material-admin/runtime.a1235bdcc465d448efa8.js",
+    "46b489e6c33f0e60963cc011cc93c06fc3c8d399": "/react-material-admin/15.d6a21c5029e4a9372d51.chunk.js",
+    "1a112ba3476403dc8b506ee5af491574193428c6": "/react-material-admin/16.64ccdfafd599ec4fd58e.chunk.js",
+    "3b59f63302ba7f6e4c13e36b52319ec4b1a5d6cd": "/react-material-admin/17.ecb03e78b222f32a1226.chunk.js",
+    "d573935e31323c1f11991650e3d30af64f62be42": "/react-material-admin/18.0a3f8a4b1ac919980f80.chunk.js",
+    "e5528f8d4b55a18a8bd5a26d6ec7cfaae341145e": "/react-material-admin/19.5f5b265b82c786ba9c50.chunk.js",
+    "e1a05bce92b2e718f7036c256bd8a0bb76f04ad9": "/react-material-admin/"
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2/4/2020, 12:20:08 AM",
+  "version": "2/4/2020, 12:23:27 AM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": false
@@ -144,12 +144,12 @@ var __wpo = {
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "22249e1ea7baa06e7c1b");
+/******/ 	return __webpack_require__(__webpack_require__.s = "61e29f176c798cbbf460");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "22249e1ea7baa06e7c1b":
+/***/ "61e29f176c798cbbf460":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -935,7 +935,7 @@ cacheMaps: [
             return;
           }
 
-          return new URL("/", location);
+          return new URL("/react-material-admin/", location);
         },
       to: null,
       requestTypes: ["navigate"],
