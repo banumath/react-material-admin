@@ -55,7 +55,7 @@ var __wpo = {
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2/4/2020, 12:30:11 AM",
+  "version": "2/4/2020, 12:31:36 AM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": true
@@ -144,12 +144,12 @@ var __wpo = {
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "22249e1ea7baa06e7c1b");
+/******/ 	return __webpack_require__(__webpack_require__.s = "4aeb0e9fc0b19d5df286");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "22249e1ea7baa06e7c1b":
+/***/ "4aeb0e9fc0b19d5df286":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -928,19 +928,7 @@ function logGroup(title, assets) {
 }
         WebpackServiceWorker(__wpo, {
 loaders: {},
-cacheMaps: [
-      {
-      match: function(url) {
-          if (url.pathname === location.pathname) {
-            return;
-          }
-
-          return new URL("/", location);
-        },
-      to: null,
-      requestTypes: ["navigate"],
-    }
-    ],
+cacheMaps: [],
 navigationPreload: false,
 });
         module.exports = __webpack_require__("6872a71ed75a597694c7")
