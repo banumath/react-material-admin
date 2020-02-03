@@ -4,6 +4,8 @@
 
 import { combineReducers } from 'redux';
 import { connectRouter } from 'connected-react-router';
+import { firebaseReducer } from 'react-redux-firebase';
+import { firestoreReducer } from 'redux-firestore';
 
 import history from 'utils/history';
 import languageProviderReducer from 'containers/LanguageProvider/reducer';
@@ -15,6 +17,8 @@ export default function createReducer(injectedReducers = {}) {
   const rootReducer = combineReducers({
     language: languageProviderReducer,
     router: connectRouter(history),
+    firebase: firebaseReducer,
+    firestore: firestoreReducer,
     ...injectedReducers,
   });
 

@@ -16,6 +16,13 @@ import { ConnectedRouter } from 'connected-react-router';
 import history from 'utils/history';
 import 'sanitize.css/sanitize.css';
 
+// Import firebase
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/firestore';
+import { ReactReduxFirebaseProvider } from 'react-redux-firebase';
+import { createFirestoreInstance } from 'redux-firestore';
+
 // Import root app
 import App from 'containers/App';
 
@@ -38,14 +45,47 @@ const initialState = {};
 const store = configureStore(initialState, history);
 const MOUNT_NODE = document.getElementById('app');
 
+// Firebase initialize
+const fbConfig = {
+  apiKey: 'AIzaSyDWOq_Oh7O-4SCwgm2vS7WurOqOZzh0EA0',
+  authDomain: 'growth-694f4.firebaseapp.com',
+  databaseURL: 'https://growth-694f4.firebaseio.com',
+  projectId: 'growth-694f4',
+  storageBucket: 'growth-694f4.appspot.com',
+  messagingSenderId: '956442432358',
+  appId: '1:956442432358:web:58a74dee51990703ceaea7',
+};
+
+// react-redux-firebase config
+const rrfConfig = {
+  useFirestoreForProfile: true,
+  // enableClaims: true // Get custom claims along with the profile
+};
+
+// Initialize firebase instance
+firebase.initializeApp(fbConfig);
+
+// Initialize other services on firebase instance
+firebase.firestore();
+// firebase.functions() // <- needed if using httpsCallable
+
+const rrfProps = {
+  firebase,
+  config: rrfConfig,
+  dispatch: store.dispatch,
+  createFirestoreInstance,
+};
+
 const render = messages => {
   ReactDOM.render(
     <Provider store={store}>
-      <LanguageProvider messages={messages}>
-        <ConnectedRouter history={history}>
-          <App />
-        </ConnectedRouter>
-      </LanguageProvider>
+      <ReactReduxFirebaseProvider {...rrfProps}>
+        <LanguageProvider messages={messages}>
+          <ConnectedRouter history={history}>
+            <App />
+          </ConnectedRouter>
+        </LanguageProvider>
+      </ReactReduxFirebaseProvider>
     </Provider>,
     MOUNT_NODE,
   );
