@@ -2,7 +2,7 @@ var __wpo = {
   "assets": {
     "main": [
       "/favicon.ico",
-      "/runtime.a1235bdcc465d448efa8.js",
+      "/runtime.6a24fca20f4bf5d9d293.js",
       "/"
     ],
     "additional": [
@@ -45,17 +45,17 @@ var __wpo = {
     "b6a88e98859f30310f868c4cf611968b4d35c1b9": "/npm.react-redux-firebase.4802844e0f44b203ed31.chunk.js",
     "0114840127c3af1af089beda7f8eb5e4ac775ea3": "/npm.react-transition-group.7ddca2eac10722df78cf.chunk.js",
     "25fb8e2fe66db71a23b56b562656281fb7392880": "/npm.redux-firestore.d7739624e08f9dd9873e.chunk.js",
-    "d77694a94677c919d8cdee795b7af9e964bca8e1": "/runtime.a1235bdcc465d448efa8.js",
+    "dc65f5635e2f916410ebd6b9707af86db62e0505": "/runtime.6a24fca20f4bf5d9d293.js",
     "46b489e6c33f0e60963cc011cc93c06fc3c8d399": "/15.d6a21c5029e4a9372d51.chunk.js",
     "1a112ba3476403dc8b506ee5af491574193428c6": "/16.64ccdfafd599ec4fd58e.chunk.js",
     "3b59f63302ba7f6e4c13e36b52319ec4b1a5d6cd": "/17.ecb03e78b222f32a1226.chunk.js",
     "d573935e31323c1f11991650e3d30af64f62be42": "/18.0a3f8a4b1ac919980f80.chunk.js",
     "e5528f8d4b55a18a8bd5a26d6ec7cfaae341145e": "/19.5f5b265b82c786ba9c50.chunk.js",
-    "2bf97dacb48d260ea26a552f9ec66e5b54d0ea79": "/"
+    "437f953b735c83acf31dd31edfe38b098dd5121a": "/"
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2/4/2020, 8:56:02 AM",
+  "version": "2/4/2020, 8:58:09 AM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": false
@@ -140,7 +140,7 @@ var __wpo = {
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "/react-material-admin/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
