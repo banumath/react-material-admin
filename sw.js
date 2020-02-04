@@ -1,30 +1,30 @@
 var __wpo = {
   "assets": {
     "main": [
-      "/favicon.ico",
-      "/runtime.6a24fca20f4bf5d9d293.js",
-      "/"
+      "/react-material-admin/favicon.ico",
+      "/react-material-admin/runtime.6a24fca20f4bf5d9d293.js",
+      "/react-material-admin/"
     ],
     "additional": [
-      "/npm.lodash.efab496fab22e8c3e0d5.chunk.js",
-      "/npm.redux-saga.36b7b3dbb3f41a7740c9.chunk.js",
-      "/npm.intl.da2b4b61a3e0227d6268.chunk.js",
-      "/npm.material-ui.177ad0974f0c31a6906a.chunk.js",
-      "/4.ab377bf6bf5fd117eb2d.chunk.js",
-      "/main.d71d90065d93e513cc2f.chunk.js",
-      "/npm.babel.cbd622b2e6a0ad546b0f.chunk.js",
-      "/npm.firebase.fa99616e7922cff6554e.chunk.js",
-      "/npm.mui-layout.6701546fd252abeabf71.chunk.js",
-      "/npm.react-app-polyfill.a512adaad14151170c55.chunk.js",
-      "/npm.react-redux.ac4595acc9003405d038.chunk.js",
-      "/npm.react-redux-firebase.4802844e0f44b203ed31.chunk.js",
-      "/npm.react-transition-group.7ddca2eac10722df78cf.chunk.js",
-      "/npm.redux-firestore.d7739624e08f9dd9873e.chunk.js",
-      "/15.d6a21c5029e4a9372d51.chunk.js",
-      "/16.64ccdfafd599ec4fd58e.chunk.js",
-      "/17.ecb03e78b222f32a1226.chunk.js",
-      "/18.0a3f8a4b1ac919980f80.chunk.js",
-      "/19.5f5b265b82c786ba9c50.chunk.js"
+      "/react-material-admin/npm.lodash.efab496fab22e8c3e0d5.chunk.js",
+      "/react-material-admin/npm.redux-saga.36b7b3dbb3f41a7740c9.chunk.js",
+      "/react-material-admin/npm.intl.da2b4b61a3e0227d6268.chunk.js",
+      "/react-material-admin/npm.material-ui.177ad0974f0c31a6906a.chunk.js",
+      "/react-material-admin/4.ab377bf6bf5fd117eb2d.chunk.js",
+      "/react-material-admin/main.d71d90065d93e513cc2f.chunk.js",
+      "/react-material-admin/npm.babel.cbd622b2e6a0ad546b0f.chunk.js",
+      "/react-material-admin/npm.firebase.fa99616e7922cff6554e.chunk.js",
+      "/react-material-admin/npm.mui-layout.6701546fd252abeabf71.chunk.js",
+      "/react-material-admin/npm.react-app-polyfill.a512adaad14151170c55.chunk.js",
+      "/react-material-admin/npm.react-redux.ac4595acc9003405d038.chunk.js",
+      "/react-material-admin/npm.react-redux-firebase.4802844e0f44b203ed31.chunk.js",
+      "/react-material-admin/npm.react-transition-group.7ddca2eac10722df78cf.chunk.js",
+      "/react-material-admin/npm.redux-firestore.d7739624e08f9dd9873e.chunk.js",
+      "/react-material-admin/15.d6a21c5029e4a9372d51.chunk.js",
+      "/react-material-admin/16.64ccdfafd599ec4fd58e.chunk.js",
+      "/react-material-admin/17.ecb03e78b222f32a1226.chunk.js",
+      "/react-material-admin/18.0a3f8a4b1ac919980f80.chunk.js",
+      "/react-material-admin/19.5f5b265b82c786ba9c50.chunk.js"
     ],
     "optional": []
   },
@@ -944,7 +944,7 @@ cacheMaps: [
 navigationPreload: false,
 });
         module.exports = __webpack_require__("6872a71ed75a597694c7")
-      
+
 
 /***/ }),
 
